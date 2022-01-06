@@ -2,7 +2,7 @@
 -- version 4.7.9
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1:3306
+-- Host: 172.30.14.93:3306
 -- Generation Time: Nov 04, 2019 at 04:33 AM
 -- Server version: 5.7.21
 -- PHP Version: 5.6.35
@@ -19,17 +19,17 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `contactdata`
+-- Database: `pavdeepdb`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `contactdata`
+-- Table structure for table `pavdeepdb`
 --
 
-DROP TABLE IF EXISTS `contactdata`;
-CREATE TABLE IF NOT EXISTS `contactdata` (
+DROP TABLE IF EXISTS `pavdeepdb`;
+CREATE TABLE IF NOT EXISTS `pavdeepdb` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `firstname` varchar(55) NOT NULL,
   `lastname` varchar(55) NOT NULL,
